@@ -20,7 +20,7 @@
 extern Ticker flasher;
 
 // defines go here
-#define FIRMWAREVERSION "7.1.4"
+#define FIRMWAREVERSION "7.1.4b_no_acctest"
 
 #define API_FHEM true
 #define API_UBIDOTS true
