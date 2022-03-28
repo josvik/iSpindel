@@ -961,11 +961,11 @@ bool testAccel()
   if (res != I2C_OK)
     CONSOLELN(String(F("I2C ERROR: ")) + res);
 
-  bool con = accelgyro.testConnection();
-  if (!con)
-    CONSOLELN(F("Acc Test Connection ERROR!"));
+  //bool con = accelgyro.testConnection();
+  //if (!con)
+  //  CONSOLELN(F("Acc Test Connection ERROR!"));
 
-  return res == I2C_OK && con == true;
+  return res == I2C_OK;// && con == true;
 }
 
 void getAccSample()
